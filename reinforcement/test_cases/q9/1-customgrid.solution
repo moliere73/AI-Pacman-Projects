@@ -1,0 +1,88 @@
+q_values_after_0_updates_action_east: """
+           illegal       0.0000       0.0000       0.0000       0.0000      illegal
+"""
+
+q_values_after_0_updates_action_west: """
+           illegal       0.0000       0.0000       0.0000       0.0000      illegal
+"""
+
+q_values_after_0_updates_action_south: """
+           illegal       0.0000       0.0000       0.0000       0.0000      illegal
+"""
+
+q_values_after_0_updates_action_north: """
+           illegal       0.0000       0.0000       0.0000       0.0000      illegal
+"""
+
+q_values_after_0_updates_action_exit: """
+            0.0000      illegal      illegal      illegal      illegal       0.0000
+"""
+
+q_values_after_1_updates_action_east: """
+           illegal       0.0000       0.0000       1.3500       0.0000      illegal
+"""
+
+q_values_after_1_updates_action_west: """
+           illegal       0.0000       0.0000       0.0000       0.0000      illegal
+"""
+
+q_values_after_1_updates_action_south: """
+           illegal       0.0000       0.0000       0.0000       0.0000      illegal
+"""
+
+q_values_after_1_updates_action_north: """
+           illegal       0.0000       0.0000       0.0000       0.0000      illegal
+"""
+
+q_values_after_1_updates_action_exit: """
+            0.0000      illegal      illegal      illegal      illegal       0.0000
+"""
+
+q_values_after_2_updates_action_east: """
+           illegal       0.0000       0.0000       1.3500       1.3500      illegal
+"""
+
+q_values_after_2_updates_action_west: """
+           illegal       0.0000       0.0000       0.0000       0.0000      illegal
+"""
+
+q_values_after_2_updates_action_south: """
+           illegal       0.0000       0.0000       0.0000       0.0000      illegal
+"""
+
+q_values_after_2_updates_action_north: """
+           illegal       0.0000       0.0000       0.0000       0.0000      illegal
+"""
+
+q_values_after_2_updates_action_exit: """
+            0.0000      illegal      illegal      illegal      illegal       0.0000
+"""
+
+q_values_after_3_updates_action_east: """
+           illegal       0.0000       0.0000       1.3500       1.3500      illegal
+"""
+
+q_values_after_3_updates_action_west: """
+           illegal       0.0000       0.0000       0.0000       0.0000      illegal
+"""
+
+q_values_after_3_updates_action_south: """
+           illegal       0.0000       0.0000       0.0000       0.0000      illegal
+"""
+
+q_values_after_3_updates_action_north: """
+           illegal       0.0000       0.0000       0.0000       0.0000      illegal
+"""
+
+q_values_after_3_updates_action_exit: """
+            0.0000      illegal      illegal      illegal      illegal      -5.0000
+"""
+
+values: """
+            0.0000       0.0000       0.0000       1.3500       1.3500      -5.0000
+"""
+
+exploration_policy: """
+        exit         north,west,south,east   north,west,south,east   north,west,south   north,west,south   exit
+"""
+

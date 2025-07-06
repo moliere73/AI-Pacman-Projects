@@ -1,0 +1,21 @@
+class: "QLearningExplorationTest"
+
+# GridWorld specification
+#    _ is empty space
+#    numbers are pre-terminal states with that value
+#    # is a wall
+#    S is a start state
+#
+grid: """
+    # -100 -100 -100 -100 -100    #
+    1    S    _    _    _    _    10
+    # -100 -100 -100 -100 -100    # 
+"""
+gridName: "BridgeGrid"
+discount: "0.9"
+noise: "0.0"
+livingReward: "0.0"
+learningRate: "0.5"
+k: "3"
+experiences: "[((1,1), 'west', (0,1), 0), ((0,1), 'exit', 'TERMINAL_STATE', 1), ((1,1), 'north', (1,2), 0), ((1,2), 'exit', 'TERMINAL_STATE', -100), ((1,1), 'south', (1,0), 0), ((1,0), 'exit', 'TERMINAL_STATE', -100), ((1,1), 'west', (0,1), 0), ((0,1), 'exit', 'TERMINAL_STATE', 1), ((1,1), 'north', (1,2), 0), ((1,2), 'exit', 'TERMINAL_STATE', -100), ((1,1), 'south', (1,0), 0), ((1,0), 'exit', 'TERMINAL_STATE', -100)]"
+

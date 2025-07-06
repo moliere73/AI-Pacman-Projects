@@ -1,0 +1,12 @@
+class: "PositionGraphProblemTest"
+
+layoutName: "mazeEastUshape"
+layout: """
+%%%%
+%P %
+%% %
+%. %
+%%%%
+"""
+
+

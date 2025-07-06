@@ -1,0 +1,19 @@
+class: "QLearningExplorationTest"
+
+# GridWorld specification
+#    _ is empty space
+#    numbers are pre-terminal states with that value
+#    # is a wall
+#    S is a start state
+#
+grid: """
+  10 _ _ S _ -10
+"""
+gridName: "customGrid"
+discount: "0.9"
+noise: "0.0"
+livingReward: "0.0"
+learningRate: "0.5"
+k: "3"
+experiences: "[((3,0), 'east', (4,0), 0), ((4,0), 'east', (5,0), 0), ((5,0), 'exit', 'TERMINAL_STATE', -10)]"
+
